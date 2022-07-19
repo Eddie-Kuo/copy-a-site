@@ -1,0 +1,64 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.container * {
+    border: solid 1px black;
+}
+
+.container {
+    border: solid 1px black;
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 10% 90%;
+}
+
+header {
+    height: 100%;
+    width: 100%;
+    border: solid 1px black;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    border: solid 1px black;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: 10% 90%;
+}
+
+.videos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+· * {
+	Box-sizing:
+	Border-box;
+	} 
+
+button {
+    display: block;
+    height: 80px;
+    width: 80px;
+    border: solid 1px black;
+    margin: 15px;
+}
+
+.genre div {
+    
+    display: inline-block;
+    
+}
